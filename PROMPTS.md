@@ -9,3 +9,4 @@ I need to replace the placeholder section with a brand-new section that fits the
 
 Design a modern "Sponsors & Partners" section that looks premium and professional.
 
+2. Provide relavent text and idea about the images to be shown.

@@ -290,9 +290,7 @@
 /* sponsors section */
 
 .sponsors-section {
-    padding: 40px;
     background-color: rgb(235, 248, 250);
-
 }
 
 .sponsor-container span {
@@ -307,7 +305,7 @@
 .sponsor-container {
     text-align: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .sponsor-container h2 {
@@ -323,7 +321,7 @@
 
 .sponsors-img {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     margin-top: 10px;
 }
@@ -345,6 +343,21 @@
     border: none;
 }
 
+.sponsor-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #1D4ED8;
+    font-size: 18px;
+}
+
+.sponsor-btn:hover {
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* Footer css */
 
