@@ -330,14 +330,14 @@
 
 .sponsor img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 10px;
+    height: auto;
+    display: block;
 }
 
 .sponsor {
     border: 2px solid #d1dbf6;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .sponsor:hover {
@@ -388,6 +388,6 @@ footer hr {
 }
 
 .policies {
-    margin-top: 15px !important;
+    margin-top: 15px;
     color: white;
 }
