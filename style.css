@@ -377,6 +377,7 @@ footer {
 .icons {
     color: white;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .icons-container {
