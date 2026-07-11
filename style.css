@@ -285,3 +285,58 @@
 .card2 hr {
     opacity: 20%;
 }
+
+
+
+
+
+
+
+
+
+
+/* Footer css */
+
+footer {
+    background-color: #0D1B2A;
+    padding: 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icons {
+    color: white;
+    font-size: 25px;
+}
+
+.icons-container {
+    display: flex;
+    gap: 65px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright-text {
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer hr {
+    opacity: 50%;
+}
+
+.policies {
+    margin-top: 15px !important;
+    color: white;
+}
