@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 
 .common-container-style {
@@ -23,6 +24,29 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.common-outline-btn-variant-1 {
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.common-outline-btn-variant-2 {
+    padding: 10px 25px;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* navbar css */
@@ -152,4 +176,112 @@
     color: #575757;
     font-weight: 300;
     font-size: 12px;
+}
+
+/* Secure Your Spot css */
+
+.secure-your-spot-section {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.secure-your-spot-section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secure-your-spot-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.secure-your-spot-section p {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.pricing-card {
+    background-color: #F8F9FB;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+}
+
+.pricing-card h4 {
+    color: #575757;
+    opacity: 50%;
+    margin-bottom: 5px;
+}
+
+.pricing-card h2 {
+    font-size: 44px;
+}
+
+.pricing-card p {
+    margin-top: 5px;
+}
+
+.pricing-card-button {
+    width: 100%;
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-top: 30px;
+}
+
+.benefits-list {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.benefits-list li::marker {
+    color: #1D4ED8;
+    line-height: 3.5;
+}
+
+/* card 2 special css */
+
+.card2 {
+    background-color: #0D1B2A;
+}
+
+.card2 h2 {
+    color: white;
+}
+
+.card2 h4 {
+    color: #93C5FD;
+    opacity: 100%;
+    font-weight: 400;
+}
+
+.card2 ul li {
+    color: rgb(255 255 255 / 80%);
+    font-weight: 300;
+}
+
+.card2 .benefits-list li::marker {
+    color: #60A5FA;
+}
+
+.card2 p {
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.card2 hr {
+    opacity: 20%;
 }
