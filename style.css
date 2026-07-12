@@ -366,12 +366,9 @@ footer {
     padding: 60px;
 }
 
-.footer-container {
+.footer-first-level {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
-
 }
 
 .icons {
@@ -380,28 +377,31 @@ footer {
     cursor: pointer;
 }
 
-.icons-container {
-    display: flex;
-    gap: 65px;
-}
-
 .footer-right {
     display: flex;
+    gap: 40px;
+}
+
+.footer-second-level {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
 }
 
 .copyright-text {
-    margin-top: 5px;
     color: white;
-    margin-bottom: 10px;
 }
 
 footer hr {
     opacity: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .policies {
-    margin-top: 15px;
     color: white;
 }
